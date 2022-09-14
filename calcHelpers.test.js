@@ -19,7 +19,7 @@ describe('calculator helpers', () => {
 
     describe('addThese', () => {
         let addThese = calcHelpers.addThese;
-        
+
         test('it exists', () => {
             expect(addThese).toBeDefined();
         })
